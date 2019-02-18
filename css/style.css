@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Futura, "Hirago KakuGothic ProN", sans-serif;
+}
+
+p, h2 {
+    color: #333333;
+}
+
+header {
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
+}
+
+.logo img {
+    width: 900px;
+    margin: auto;
+}
+
+.logo p {
+    font-size: 45px;
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+    font-family: Futura;
+    font-size: 45px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+  
+ul {
+    overflow: hidden;
+    margin: 0 50px;
+}
+
+ul li {
+    list-style: none;
+    float: left;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    padding: 30px 15px 0;
+    color: #fff;
+    transition: 0.5s;
+    font-family: Futura;
+    font-size: 20pt;
+    font-weight: 300;
+}
+  
+nav a:hover {
+    color: #3D5CDB;
+}
+
+h1 {
+    text-align: center;
+    font-family: Futura;
+    font-size: 40pt;
+    font-weight: 300;
+    padding: 40px;
+    color: #3D5CDB;
+}
+
+section #introduction{
+    display: flex;
+    justify-content: center;
+}
+
+.intro_detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.intro_detail img {
+    width: 500px;
+    object-fit: contain;
+}
+
+.intro_content_right {
+    width: 500px;
+    margin: 20px;
+    line-height: 2;
+}
+
+.intro_content_right p {
+    width: 400px;
+    margin: 0 auto 20px;
+    font-family: "Hirago KakuGothic ProN";
+}
+
+.intro_content_right a {
+    display:block;
+    margin: 30px auto;
+    text-decoration: none;
+    width: 170px;
+    height: 40px;
+    background-color: #3D5CDB;
+    color: #ffffff;
+    border-radius: 12px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+.intro_content_left {
+    width: 500px;
+    margin: 20px;
+}
+
+.intro_content_left p {
+    width: 400px;
+    margin: 0 auto 20px;
+    font-family: "Hirago KakuGothic ProN";
+}
+
+.intro_content_left a {
+    display:block;
+    margin: 30px auto;
+    text-decoration: none;
+    width: 170px;
+    height: 40px;
+    background-color: #ffbf00;
+    color: #ffffff;
+    border-radius: 12px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+#courses {
+    background-color: rgba(186, 213, 245, 0.3);
+}
+
+.course {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.course_info {
+    width: 250px;
+    height: 300px;
+    background-color: #ffffff;
+    margin: 60px;
+    border-radius: 12px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.course_img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.course_img img {
+    width: 100px;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.course_info h2 {
+    font-family: "Hirago KakuGothic ProN";
+    font-size: 15pt;
+    text-align: center;
+    margin: 10px;
+    padding-top: 20px;
+}
+
+
+.course_info a {
+    display:block;
+    margin: 15px auto;
+    text-decoration: none;
+    width: 170px;
+    height: 40px;
+    background-color: #ffbf00;
+    color: #ffffff;
+    border-radius: 12px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+
+#access {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    /* background-color: rgba(186, 213, 245, 0.3); */
+}
+
+footer {
+    height: 60px;
+    line-height: 60px;
+    font-family: Futura;
+    font-weight: 300;
+    font-size: 15pt;
+    text-align: center;
+    color: #3D5CDB;
+}
