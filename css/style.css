@@ -13,6 +13,7 @@ h1,h2,h3,h4,h5,h6,p {
 
 section{
     overflow: hidden;
+    width: 100vw;
 }
 
  /*ふわっとCSS*/
@@ -155,7 +156,12 @@ h1 {
     font-weight: 300;
     padding: 40px;
     color: #3D5CDB;
+} @media(max-width: 450px){
+    h1{
+        font-size: 200%;
+    }
 }
+
 
 section #introduction{
     display: flex;
@@ -226,6 +232,80 @@ section #introduction{
     font-size: 15pt;
     font-weight: bold;
 }
+
+@media(max-width:450px) {
+    .intro_detail {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+    }
+    
+    .intro_detail img {
+        width: 100%;
+        object-fit: contain;
+    }
+    
+    .intro_content_right {
+        width: 100%;
+        margin-bottom: 20px;
+        line-height: 2;
+    }
+    
+    .intro_content_right p {
+        width: 90%;
+        margin: 0 auto;
+        font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', sans-serif;
+    }
+    
+    .intro_content_right a {
+        display:block;
+        margin: 30px auto;
+        text-decoration: none;
+        width: 170px;
+        height: 40px;
+        background-color: #3D5CDB;
+        color: #ffffff;
+        border-radius: 12px;
+        text-align: center;
+        line-height: 40px;
+        font-size: 15pt;
+        font-weight: bold;
+    }
+    
+    .intro_content_left {
+        width: 100%;
+        margin-bottom: 20px;
+        line-height: 2;
+    }
+    
+    .intro_content_left p {
+        width: 90%;
+        margin: 0 auto;
+        font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', sans-serif;
+    }
+    
+    .intro_content_left a {
+        display:block;
+        margin: 30px auto;
+        text-decoration: none;
+        width: 170px;
+        height: 40px;
+        background-color: #ffbf00;
+        color: #ffffff;
+        border-radius: 12px;
+        text-align: center;
+        line-height: 40px;
+        font-size: 15pt;
+        font-weight: bold;
+    }
+
+    .intro_detail2 {
+        flex-wrap: wrap-reverse;
+    }
+}
+
 
 #courses {
     background-color: rgba(186, 213, 245, 0.3);
@@ -301,6 +381,24 @@ section #introduction{
     padding-bottom: 40px;
     /* background-color: rgba(186, 213, 245, 0.3); */
 }
+
+@media(max-width: 450px){
+    .map{
+        position:relative;
+        width:100%;
+        height:0;
+        padding-top:75%;
+    }
+    
+    .map iframe{
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+    }
+}
+
 
 footer {
     height: 60px;
