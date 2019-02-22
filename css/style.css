@@ -372,6 +372,32 @@ section #introduction{
     font-weight: bold;
 }
 
+#slick {
+    margin-bottom: 50px;
+}
+
+.slider{
+    margin: 30px auto;
+    width: 80%;
+}
+.slider img{
+    height: auto;
+    width: 100%;
+}
+/*slick setting*/
+.slick-prev:before,
+.slick-next:before {
+    color: #000;
+}
+
+.slick-dots {
+    bottom: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 #access {
     display: flex;
@@ -381,6 +407,7 @@ section #introduction{
     padding-bottom: 40px;
     /* background-color: rgba(186, 213, 245, 0.3); */
 }
+
 
 @media(max-width: 450px){
     .map{
@@ -409,3 +436,4 @@ footer {
     text-align: center;
     color: #3D5CDB;
 }
+
