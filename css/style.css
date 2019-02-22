@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: Futura, "Hirago KakuGothic ProN", sans-serif;
+    font-family: Futura, "Hirago KakuGothic Pro", sans-serif;
 }
 
 p, h2 {
@@ -25,7 +25,7 @@ header {
     top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
-    -webkit- transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
 }
 
 .logo img {
@@ -111,7 +111,7 @@ section #introduction{
 .intro_content_right p {
     width: 400px;
     margin: 0 auto 20px;
-    font-family: "Hirago KakuGothic ProN";
+    font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', sans-serif;
 }
 
 .intro_content_right a {
@@ -137,7 +137,7 @@ section #introduction{
 .intro_content_left p {
     width: 400px;
     margin: 0 auto 20px;
-    font-family: "Hirago KakuGothic ProN";
+    font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', sans-serif;
 }
 
 .intro_content_left a {
@@ -197,7 +197,7 @@ section #introduction{
 }
 
 .course_info h2 {
-    font-family: "Hirago KakuGothic ProN";
+    font-family: "Hirago KakuGothic StdN", Meiryo, メイリオ, sans-serif;
     font-size: 15pt;
     text-align: center;
     margin: 10px;
