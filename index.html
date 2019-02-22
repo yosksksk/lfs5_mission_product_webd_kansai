@@ -14,6 +14,7 @@
     <meta property="og:description" content="Happy Hackはいまをときめく若者がITを活用したものづくりに取り組める環境を提供しています。" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="./css/slick.css">
 </head>
 <body>
     <header>
@@ -126,5 +127,29 @@
     <footer>
         &copy; 2019 Happy Hack Inc.
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="./js/jquery.bgswitcher.js"></script>
+    <script>
+      jQuery(function($) {
+        $('header').bgSwitcher({
+          images: ["./images/background1.jpg", "./images/background2.jpg", "./images/background3.jpg", "./images/background4.jpg", "./images/background5.jpg"],
+          interval: 3000,
+        });
+  
+        //      ふわっと
+        $('.fuwat').css('visibility', 'hidden');
+        $(window).scroll(function() {
+          var windowHeight = $(window).height(),
+            topWindow = $(window).scrollTop();
+          $('.fuwat').each(function() {
+            var objectPosition = $(this).offset().top;
+            if (topWindow > objectPosition - windowHeight + 200) {
+              $(this).addClass("fuwatAnime");
+            }
+          });
+        });
+      });
+    </script>
+    <script src="./js/slick.min.js"></script>
 </body>
 </html>

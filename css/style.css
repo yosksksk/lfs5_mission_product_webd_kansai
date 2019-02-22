@@ -12,12 +12,20 @@ p, h2 {
 }
 
 header {
-    background-image: url("../images/hero.jpg");
+    /* background-image: url("../images/hero.jpg"); */
     background-size: cover;
     background-position: center center;
     height: 100vh;
     width: 100%;
     position: relative;
+/* } @media(max-width:450px) {
+    header {
+        background-size: cover;
+        background-position: center center;
+        position: relative;
+        width: 100vw;
+        height: auto;
+    } */
 }
 
 .logo {
@@ -31,6 +39,11 @@ header {
 .logo img {
     width: 900px;
     margin: auto;
+} @media(max-width:450px) {
+    .logo img {
+        width: 70vw;
+        margin: auto;
+    }
 }
 
 .logo p {
@@ -39,9 +52,18 @@ header {
     margin-top: 30px;
     color: #fff;
     font-family: Futura;
-    font-size: 45px;
     font-style: italic;
     font-weight: 100;
+} @media(max-width:450px) {
+    .logo p {
+        font-size: 100%;
+        text-align: center;
+        margin-top: 20px;
+        color: #fff;
+        font-family: Futura;
+        font-style: italic;
+        font-weight: 100;
+    }
 }
 
 nav {
@@ -49,6 +71,10 @@ nav {
     top: 0;
     right: 0;
     z-index: 2;
+} @media (max-width: 450px) {
+    nav {
+        display: none;
+    }
 }
   
 ul {
