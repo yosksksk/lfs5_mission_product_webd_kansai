@@ -59,20 +59,10 @@ section{
 
 
 header {
-    /* background-image: url("../images/hero.jpg"); */
     background-size: cover;
     background-position: center center;
-    height: 100vh;
-    width: 100vw;
     position: relative;
-/* } @media(max-width:450px) {
-    header {
-        background-size: cover;
-        background-position: center center;
-        position: relative;
-        width: 100vw;
-        height: auto;
-    } */
+    height: 100vh;
 }
 
 .logo {
