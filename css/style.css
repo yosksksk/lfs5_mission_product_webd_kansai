@@ -197,6 +197,10 @@ section #introduction{
     font-weight: bold;
 }
 
+.intro_content_right a:hover{
+    box-shadow: 0 2px 15px 2px rgba(133,140,142,0.4);
+}
+
 .intro_content_left {
     width: 500px;
     margin: 20px;
@@ -221,6 +225,10 @@ section #introduction{
     line-height: 40px;
     font-size: 15pt;
     font-weight: bold;
+}
+
+.intro_content_left a:hover{
+    box-shadow: 0 2px 15px 2px rgba(133,140,142,0.4);
 }
 
 @media(max-width:450px) {
