@@ -5,6 +5,8 @@
 
 body {
     font-family: Futura, "Hirago KakuGothic Pro", sans-serif;
+    font-feature-settings : "palt" 1;
+
 }
 
 h1,h2,h3,h4,h5,h6,p {
@@ -147,6 +149,7 @@ h1 {
 } @media(max-width: 450px){
     h1{
         font-size: 200%;
+        padding-bottom: 20px;
     }
 }
 
@@ -236,6 +239,7 @@ section #introduction{
         align-items: center;
         margin-bottom: 30px;
         flex-wrap: wrap;
+        font-size: 13px;
     }
     
     .intro_detail img {
@@ -266,7 +270,7 @@ section #introduction{
         border-radius: 12px;
         text-align: center;
         line-height: 40px;
-        font-size: 15pt;
+        font-size: 15px;
         font-weight: bold;
     }
     
@@ -293,7 +297,7 @@ section #introduction{
         border-radius: 12px;
         text-align: center;
         line-height: 40px;
-        font-size: 15pt;
+        font-size: 15px;
         font-weight: bold;
     }
 
@@ -465,10 +469,10 @@ section #introduction{
         margin: 15px auto;
         text-decoration: none;
         width: 100px;
-        height: 35px;
+        height: 40px;
         background-color: #ffbf00;
         color: #ffffff;
-        border-radius: 15px;
+        border-radius: 20px;
         text-align: center;
         line-height: 40px;
         font-size: 10px;
